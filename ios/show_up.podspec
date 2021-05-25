@@ -4,14 +4,14 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'show_up'
-  s.version          = '0.0.1'
-  s.summary          = 'A new flutter plugin project.'
+  s.version          = '1.0.0'
+  s.summary          = 'A Flutter plugin to easily display and remove overlapping widgets anywhere in the application.'
   s.description      = <<-DESC
-A new flutter plugin project.
+  A Flutter plugin to easily display and remove overlapping widgets anywhere in the application.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/JosLuna98/show_up.git'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'JosLuna98' => 'josluna1098@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
