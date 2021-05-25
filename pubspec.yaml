@@ -1,0 +1,30 @@
+name: show_up
+description: A Flutter plugin to easily display and remove overlapping widgets anywhere in the application.
+version: 1.0.0
+homepage: https://github.com/JosLuna98/show_up.git
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: dev.jostech.show_up
+        pluginClass: ShowUpPlugin
+      ios:
+        pluginClass: ShowUpPlugin
+      web:
+        pluginClass: ShowUpWeb
+        fileName: web.dart
