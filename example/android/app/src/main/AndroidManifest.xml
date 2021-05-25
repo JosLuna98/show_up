@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="dev.jostech.show_up_example">
+    package="josluna98.show_up_example">
    <application
         android:label="show_up_example"
         android:icon="@mipmap/ic_launcher">

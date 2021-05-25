@@ -1,4 +1,4 @@
-package dev.jostech.show_up
+package josluna98.show_up
 
 import androidx.annotation.NonNull
 
